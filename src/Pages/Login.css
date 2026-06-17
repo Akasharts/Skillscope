@@ -1,0 +1,109 @@
+.Card 
+{
+    align-items: center;
+    justify-content: center;
+    margin-top:50px;
+}
+.LoginCard
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:20px;
+    align-items: stretch; 
+    padding:40px;
+}
+.LoginCard #w{
+    font-size: 36px;
+    font-family: monospace;
+}
+ input,select
+{
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color:rgb(35, 34, 34);
+    font-family: monospace;
+    padding:15px 20px;
+    border-radius:15px;
+    box-sizing: border-box; 
+    border:none;
+}
+
+ input::placeholder
+{
+    color:rgb(14, 14, 14);
+}
+ input:hover,select:hover
+{
+    box-shadow: 6px 5px 20px rgba(213, 213, 213, 0.4);
+}
+.LoginCard input:focus,.LoginCard select:focus
+{
+    outline:none;
+}
+.LoginCard button
+{
+    box-sizing: border-box;    
+    width:540px;
+    margin:auto;
+    margin-top: 10px;
+    padding:15px 10px;
+    font-size: 18px;
+
+}
+.S,.L
+{
+    color:rgb(2, 2, 2);
+}
+select option
+{
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+.form-group
+{
+    width:80%;
+    display: flex;
+    flex-direction: column;
+    margin:0 auto;
+    gap:4px;
+}
+.form-group input
+{
+    width: 100%;
+}
+.form-group label
+{
+    color:rgb(0, 0, 0);
+    text-align: left;
+    font-family: monospace;
+    font-size: 16px;
+}
+#btn
+{
+    box-sizing: border-box;    
+    width:590px;
+    margin:auto;
+    margin-top: 10px;
+    padding:15px 10px;
+    font-size: 18px;
+}
+
+.message
+{
+    color:white;
+    font-family: monospace;
+    text-align: center;
+    font-weight: bolder;
+}
+/* .home img
+{
+    padding:0;
+    margin-top:0;
+    width:200px;
+    height:100px;
+    cursor:pointer;
+} */

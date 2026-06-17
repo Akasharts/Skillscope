@@ -1,0 +1,168 @@
+.Hero
+{
+   text-align: center;
+    margin-top:50px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1
+{
+    font-size:56px;
+    color: black;
+    font-weight: 600;
+    font-family: monospace;
+}
+p
+{
+    font-size: 18px;
+    color: black;
+    font-family: monospace;
+}
+.Card
+{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius:10px;
+     border: 1px solid rgba(255,255,255,0.25);
+    width:75%;
+    padding:40px;
+    max-width: 900px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    width:50%;
+    margin: 40px auto;
+   
+}
+
+.Card p
+{
+    font-size:20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color:black;
+}
+.tick
+{
+    color:rgb(255, 89, 0);
+}
+.Card button
+{
+    padding:15px 20px;
+    font-size:16px;
+    font-family:monospace;
+}
+.Card ul{
+    display: flex;
+    flex-direction: column;
+    margin:20px auto;
+    width: fit-content; 
+}
+.Card li
+{
+    display:flex;
+    align-items: center;
+    color:black;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size:16px;
+}
+.features
+{
+    display: flex;
+    text-align: center;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.features ul 
+{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap:30px;
+    /* text-align: start; */
+    padding :0;
+    align-items: center;
+    justify-content: center;
+    
+}
+.Headings
+{
+    
+    font-size: 18px;
+    color:black;
+    font-weight: 500;
+}
+ .Description
+{
+    color:black;
+   font-size: 12px;
+   font-weight: 100;
+    font-family: 'Inter', sans-serif;
+
+
+}
+.features ul li
+{
+    display:flex;
+    gap:10px;
+    align-items: flex-start;
+     
+}
+.featuresofresult ul 
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.featuresofresult ul li
+{
+    display: flex;
+    gap:10px;
+    align-items: flex-start;
+    color:black;
+}
+.logo .one
+{
+    width:50px;
+    height:50px;
+    border:solid 1px #f97316;
+    border-radius: 5px;
+}
+.logo .two
+{
+    width:50px;
+    height:50px;
+    border:solid 1px #f93016;
+    border-radius: 5px;
+}
+.logo .three
+{
+    width:50px;
+    height:50px;
+    border:solid 1px #1697f9;
+    border-radius: 5px;
+}
+.logo .four
+{
+    width:50px;
+    height:50px;
+    border:solid 1px #29f916;
+    border-radius: 5px;
+}
+.content
+{
+    display:flex;
+    flex-direction: column;
+    text-align: left;
+
+}
+.featuresofresult ul li span
+{
+    color:rgb(255, 128, 0);
+    font-weight: 600;
+   
+}

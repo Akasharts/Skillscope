@@ -1,0 +1,105 @@
+h2
+{
+    margin-top:100px;
+    color:rgb(255, 106, 0);
+    font-weight: bolder;
+    font-family: monospace;
+    font-size:30px;
+}
+
+.top
+{
+    display:flex;
+    gap:50px;
+}
+.ATSscore
+{
+    display:flex;
+    flex-direction: column;
+    border-radius:20px;
+    background-color: white; 
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    width:25%;
+    text-align: center;
+}
+.score
+{
+    color:orangered;
+  font-weight: bold;
+  text-shadow:
+    0 0 5px #ff9f1a;
+    font-size: 50px;
+  
+}
+.ten
+{
+    color:grey;
+
+}
+.best-roles ul
+{
+    padding-left:0;
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.best-roles ul li
+{
+    border-radius: 15px;
+    padding:10px 10px;
+    height:50px;
+    background-color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    font-family: 'Inter', sans-serif;
+
+}
+.skills ul
+{
+    display:flex;
+    gap:15px;
+    padding-left:0;
+}
+.skills ul li
+{
+    border-radius: 15px;
+    padding:10px 10px;
+    background-color: white;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    font-family: 'Inter', sans-serif;
+  
+}
+.st-we
+{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:10px;
+    
+}
+.strength, .weakness, .suggestions
+{
+    background-color: white;
+    border-radius:10px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    padding-left:10px;
+}
+.strength ul ,.weakness ul ,.suggestions ul
+{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+}
+.strength
+{
+    border-left: solid rgb(8, 231, 67) 5px ;
+}
+.weakness
+{
+    border-left: solid red 5px ;
+}
+.suggestions
+{
+    border-left: solid blue 5px ;
+    grid-column: span 2;
+}

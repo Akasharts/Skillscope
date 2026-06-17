@@ -1,0 +1,77 @@
+.upload-card
+{
+    text-align: center;
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-radius:10px;
+    width:50%;
+    padding:40px;
+    border:none;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+   align-items: center;
+   justify-content: center;
+}
+.upload_area
+{
+    text-align: center;
+    border-radius:10px;
+    width:100%;
+    min-height: 200px;
+    border: 2px dashed #f25925;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    width:50%;
+    background: rgba(150, 89, 46, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+}
+.upload_area:hover {
+    background: rgba(183, 121, 77, 0.242);
+}
+.upload_icon
+{
+    margin-top:10px;
+    font-size:75px;
+    color:orangered;
+}
+.upload-card p
+{
+    font-family: monospace;
+
+}
+.upload-card button
+{
+    margin-top:20px;
+    padding:15px 15px;
+    font-family: monospace;
+    font-size:16px;
+}
+.boxes
+{
+    margin-top:20px;
+    margin-left:15px;
+    display: flex;
+    gap:5px;
+}
+.box
+{
+    width:100px;
+    height:100px;
+}
+.boxes #red
+{
+    background-color: rgb(252, 39, 39);
+}
+.boxes #orange
+{
+    background-color: rgb(241, 164, 21);
+}
+.boxes #green
+{
+    background-color: rgb(30, 169, 30);
+}

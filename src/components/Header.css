@@ -1,0 +1,79 @@
+.menu
+{
+    
+    display:flex;
+    align-items: center;
+    /* background: rgba(255, 255, 255, 0.05); */
+    background: transparent;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius:20px;
+    height:50px;
+    position:fixed;
+    z-index: 1000;
+    width:100%;
+    top:0;
+    margin-top:10px;
+}
+.right-section
+{
+    display:flex;
+    gap:10px;
+    align-items: center;
+    margin-right:50px;
+    margin-left:auto;
+}
+
+ .logo h1
+ {
+    font-size:32px;
+    font-family: monospace;
+    color:black;
+ }
+.profile
+ { 
+    display:flex;
+    gap:5px;
+    /* s */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.profile p
+{
+    font-family: monospace;
+    border-radius:50px;
+    background-color: rgb(253, 252, 252);
+    font-size: 20px;
+    height: 30px;
+    width:30px;
+    color:orangered;
+}
+ .profile button
+ {
+    margin-left:10px;
+   
+    padding-top:10px 10px;
+    text-align: center;
+    cursor:pointer;
+ }
+ .logout 
+ {
+    color:rgb(198, 196, 196);
+    background:none;
+    box-shadow: none;
+    font-size: 16px;
+    text-decoration: underline;
+ }
+ .logout:hover
+ {
+    color:rgb(255, 255, 255);
+    background:none;
+    box-shadow: none;
+ }
+ h1 span
+ {
+   color:rgb(255, 123, 0);
+   font-family: monospace ;
+   text-shadow: 2px 2px 4px rgba(255, 123, 0, 0.5);
+ }
